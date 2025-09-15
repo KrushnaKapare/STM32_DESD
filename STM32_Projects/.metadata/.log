@@ -1,0 +1,219 @@
+!SESSION 2025-09-13 11:25:08.508 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-09-13 11:26:00.684
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-13 11:26:00.685
+!MESSAGE Log4j2 initialized with config file /home/krushna/STM32_Projects/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-13 11:26:03.217
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-13 11:27:29.217
+!MESSAGE Indexed 'GPIO2' (3 sources, 53 headers) in 1.07 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2025-09-13 11:54:29.496
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-09-13 11:57:11.347
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 16000000; div: 8
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-13 11:58:56.733
+!MESSAGE Indexed 'GPIO3' (8 sources, 74 headers) in 1.15 sec: 4,347 declarations; 6,772 references; 4 unresolved inclusions; 30 syntax errors; 734 unresolved names (6.2%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-09-13 12:55:56.115
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 6 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-09-13 12:55:56.116
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-09-13 12:55:56.116
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 6 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-09-13 12:55:56.116
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-09-13 13:03:17.833
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 9 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-09-13 13:03:17.833
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-09-13 13:03:17.834
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 9 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-09-13 13:03:17.834
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-09-13 13:03:40.935
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 10 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-09-13 13:03:40.935
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-09-13 13:03:40.935
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 10 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-09-13 13:03:40.935
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-09-13 13:12:13.971
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 17 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-09-13 13:12:13.972
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-09-13 13:12:13.972
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 17 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-09-13 13:12:13.972
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-09-13 13:12:40.253
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 18 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-09-13 13:12:40.253
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-09-13 13:12:40.253
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 18 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-09-13 13:12:40.253
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-09-13 13:13:56.735
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 20 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-09-13 13:13:56.735
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-09-13 13:13:56.735
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 20 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-09-13 13:13:56.735
+!MESSAGE Existing sessions are:
+!SESSION 2025-09-15 11:57:58.423 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-09-15 11:58:03.702
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-15 11:58:03.703
+!MESSAGE Log4j2 initialized with config file /home/krushna/STM32_Projects/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-15 11:58:08.441
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-15 12:13:49.807
+!MESSAGE Indexed 'LED' (5 sources, 64 headers) in 1.06 sec: 3,422 declarations; 5,869 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-09-15 12:14:07.554
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 16000000; div: 8
+
+!ENTRY org.eclipse.ui.navigator.resources 4 2 2025-09-15 12:14:33.882
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.navigator.resources".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.widgets.Shell.setLayoutDeferred(boolean)" because the return value of "org.eclipse.ui.actions.CloseResourceAction.getShell()" is null
+	at org.eclipse.ui.actions.CloseResourceAction.run(CloseResourceAction.java:202)
+	at org.eclipse.ui.navigator.resources.ProjectExplorer$1.handleMiddleClick(ProjectExplorer.java:399)
+	at org.eclipse.ui.navigator.resources.ProjectExplorer$1.lambda$0(ProjectExplorer.java:384)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.navigator.resources.ProjectExplorer$1.mouseUp(ProjectExplorer.java:383)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:237)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5855)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1617)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5065)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4517)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-15 12:33:39.154
+!MESSAGE Indexed 'SWITCH' (8 sources, 73 headers) in 0.953 sec: 4,730 declarations; 8,276 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.015%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-15 12:35:29.453
+!MESSAGE Indexed 'SWITCH' (10 sources, 73 headers) in 0.82 sec: 4,788 declarations; 8,331 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.015%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-15 12:36:02.344
+!MESSAGE Indexed 'SWITCH' (6 sources, 65 headers) in 0.43 sec: 3,429 declarations; 5,733 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)
+
+!ENTRY org.eclipse.ui.navigator.resources 4 2 2025-09-15 14:00:48.007
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.navigator.resources".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.widgets.Shell.setLayoutDeferred(boolean)" because the return value of "org.eclipse.ui.actions.CloseResourceAction.getShell()" is null
+	at org.eclipse.ui.actions.CloseResourceAction.run(CloseResourceAction.java:202)
+	at org.eclipse.ui.navigator.resources.ProjectExplorer$1.handleMiddleClick(ProjectExplorer.java:399)
+	at org.eclipse.ui.navigator.resources.ProjectExplorer$1.lambda$0(ProjectExplorer.java:384)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.navigator.resources.ProjectExplorer$1.mouseUp(ProjectExplorer.java:383)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:237)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5855)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1617)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5065)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4517)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-15 14:03:32.757
+!MESSAGE Indexed 'SWITCH2' (3 sources, 53 headers) in 0.27 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+!SESSION 2025-09-15 15:00:09.729 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-09-15 15:00:14.142
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-15 15:00:14.143
+!MESSAGE Log4j2 initialized with config file /home/krushna/STM32_Projects/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-15 15:00:19.164
+!MESSAGE Started RMI Server, listening on port 41337
