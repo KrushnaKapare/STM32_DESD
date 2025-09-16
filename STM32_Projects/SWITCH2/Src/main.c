@@ -38,30 +38,14 @@ int main(void)
 
 	while(1)
 	{
-		if((switch_status() ==  1)= c_count)
+		if(switch_status() ==  1)
 		{
 			DelayMs(50);
             c_count = count +1;
 
-            for(uint8_t i=0;i<4;i++)
-            {led_on[i];
-            switch(count)
-            {
-            case 1: led_on[0];
-                    break;
-
-            case 1: led_on[1];
-                                         break;
-                                 case 2: led_on[2];
-                                         break;
-                                 case 3: led_on[3];
-                                         break;
-            default: c_count=0;
 
 
-            }
-
+		}
 	}
-}}
-
 }
+

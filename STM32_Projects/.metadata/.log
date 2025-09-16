@@ -217,3 +217,54 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-15 15:00:19.164
 !MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-09-15 23:26:21.506 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-09-15 23:26:26.414
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-15 23:26:26.415
+!MESSAGE Log4j2 initialized with config file /home/krushna/STM32_Projects/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-15 23:26:30.971
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-09-15 23:38:01.468
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 16000000; div: 8
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-15 23:46:48.746
+!MESSAGE Indexed 'HAL_LED' (34 sources, 100 headers) in 2.78 sec: 7,849 declarations; 50,115 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0035%)
+!SESSION 2025-09-16 11:53:36.639 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-09-16 11:53:42.123
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-16 11:53:42.124
+!MESSAGE Log4j2 initialized with config file /home/krushna/STM32_Projects/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-16 11:53:47.414
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-16 11:54:42.132
+!MESSAGE Indexed 'External_interrupt' (3 sources, 53 headers) in 1.02 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-16 11:56:50.404
+!MESSAGE Indexed 'External_interrupt' (5 sources, 64 headers) in 0.577 sec: 3,413 declarations; 5,621 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-16 11:56:54.832
+!MESSAGE Indexed 'External_interrupt' (5 sources, 64 headers) in 0.514 sec: 3,413 declarations; 5,621 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-16 12:56:02.790
+!MESSAGE Indexed 'EXTI_volatile' (8 sources, 75 headers) in 1.06 sec: 4,347 declarations; 6,757 references; 3 unresolved inclusions; 30 syntax errors; 734 unresolved names (6.2%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-16 13:43:09.089
+!MESSAGE Indexed 'EXTI_volatile' (7 sources, 66 headers) in 0.446 sec: 3,437 declarations; 5,777 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)

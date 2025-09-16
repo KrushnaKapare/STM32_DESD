@@ -1,0 +1,18 @@
+12:50:37 **** Incremental Build of configuration Debug for project External_interrupt ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/extint.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/extint.d" -MT"Src/extint.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/extint.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "External_interrupt.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/krushna/STM32_Projects/External_interrupt/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="External_interrupt.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: External_interrupt.elf
+ 
+arm-none-eabi-size  External_interrupt.elf 
+arm-none-eabi-objdump -h -S External_interrupt.elf  > "External_interrupt.list"
+   text	   data	    bss	    dec	    hex	filename
+   1192	      0	   1568	   2760	    ac8	External_interrupt.elf
+Finished building: default.size.stdout
+ 
+Finished building: External_interrupt.list
+ 
+
+12:50:38 Build Finished. 0 errors, 0 warnings. (took 234ms)
+

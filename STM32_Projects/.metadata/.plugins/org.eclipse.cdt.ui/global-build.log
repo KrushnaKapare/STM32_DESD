@@ -1,30 +1,127 @@
-14:59:00 **** Incremental Build of configuration Debug for project SWITCH2 ****
+12:42:33 **** Incremental Build of configuration Debug for project External_interrupt ****
 make -j8 all 
 arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/main.o"
-../Src/main.c: In function 'main':
-../Src/main.c:41:43: error: lvalue required as left operand of assignment
-   41 |                 if((switch_status() ==  1)= c_count)
-      |                                           ^
-../Src/main.c:47:20: error: subscripted value is neither array nor pointer nor vector
-   47 |             {led_on[i];
-      |                    ^
-../Src/main.c:50:27: error: subscripted value is neither array nor pointer nor vector
-   50 |             case 1: led_on[0];
-      |                           ^
-../Src/main.c:53:13: error: duplicate case value
-   53 |             case 1: led_on[1];
-      |             ^~~~
-../Src/main.c:50:13: note: previously used here
-   50 |             case 1: led_on[0];
-      |             ^~~~
-../Src/main.c:53:27: error: subscripted value is neither array nor pointer nor vector
-   53 |             case 1: led_on[1];
-      |                           ^
-../Src/main.c:55:48: error: subscripted value is neither array nor pointer nor vector
-   55 |                                  case 2: led_on[2];
-      |                                                ^
-../Src/main.c:57:48: error: subscripted value is neither array nor pointer nor vector
-   57 |                                  case 3: led_on[3];
-      |                                                ^
-make: *** [Src/subdir.mk:37: Src/main.o] Error 1
-"make -j8 all" terminated with exit code 2. Build might be incomplete.
+arm-none-eabi-gcc -o "External_interrupt.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/krushna/STM32_Projects/External_interrupt/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="External_interrupt.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: External_interrupt.elf
+ 
+arm-none-eabi-size  External_interrupt.elf 
+arm-none-eabi-objdump -h -S External_interrupt.elf  > "External_interrupt.list"
+   text	   data	    bss	    dec	    hex	filename
+   1192	      0	   1568	   2760	    ac8	External_interrupt.elf
+Finished building: default.size.stdout
+ 
+Finished building: External_interrupt.list
+ 
+12:43:22 **** Incremental Build of configuration Debug for project External_interrupt ****
+make -j8 all 
+arm-none-eabi-size  External_interrupt.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1192	      0	   1568	   2760	    ac8	External_interrupt.elf
+Finished building: default.size.stdout
+ 
+12:48:26 **** Incremental Build of configuration Debug for project External_interrupt ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/extint.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/extint.d" -MT"Src/extint.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/extint.o"
+arm-none-eabi-gcc -o "External_interrupt.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/krushna/STM32_Projects/External_interrupt/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="External_interrupt.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: External_interrupt.elf
+ 
+arm-none-eabi-size  External_interrupt.elf 
+arm-none-eabi-objdump -h -S External_interrupt.elf  > "External_interrupt.list"
+   text	   data	    bss	    dec	    hex	filename
+   1192	      0	   1568	   2760	    ac8	External_interrupt.elf
+Finished building: default.size.stdout
+ 
+Finished building: External_interrupt.list
+ 
+12:49:59 **** Incremental Build of configuration Debug for project External_interrupt ****
+make -j8 all 
+arm-none-eabi-size  External_interrupt.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1192	      0	   1568	   2760	    ac8	External_interrupt.elf
+Finished building: default.size.stdout
+ 
+12:50:02 **** Incremental Build of configuration Debug for project External_interrupt ****
+make -j8 all 
+arm-none-eabi-size  External_interrupt.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1192	      0	   1568	   2760	    ac8	External_interrupt.elf
+Finished building: default.size.stdout
+ 
+12:50:37 **** Incremental Build of configuration Debug for project External_interrupt ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/extint.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/extint.d" -MT"Src/extint.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/extint.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "External_interrupt.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/krushna/STM32_Projects/External_interrupt/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="External_interrupt.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: External_interrupt.elf
+ 
+arm-none-eabi-size  External_interrupt.elf 
+arm-none-eabi-objdump -h -S External_interrupt.elf  > "External_interrupt.list"
+   text	   data	    bss	    dec	    hex	filename
+   1192	      0	   1568	   2760	    ac8	External_interrupt.elf
+Finished building: default.size.stdout
+ 
+Finished building: External_interrupt.list
+ 
+13:02:18 **** Build of configuration Debug for project EXTI_volatile ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/extint.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/extint.d" -MT"Src/extint.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/extint.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "EXTI_volatile.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/krushna/STM32_Projects/EXTI_volatile/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EXTI_volatile.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: EXTI_volatile.elf
+ 
+arm-none-eabi-size  EXTI_volatile.elf 
+arm-none-eabi-objdump -h -S EXTI_volatile.elf  > "EXTI_volatile.list"
+   text	   data	    bss	    dec	    hex	filename
+   1400	      4	   1572	   2976	    ba0	EXTI_volatile.elf
+Finished building: default.size.stdout
+ 
+Finished building: EXTI_volatile.list
+ 
+13:44:41 **** Incremental Build of configuration Debug for project EXTI_volatile ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/extint.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O3 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/extint.d" -MT"Src/extint.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/extint.o"
+arm-none-eabi-gcc "../Src/itm.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O3 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/itm.d" -MT"Src/itm.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/itm.o"
+arm-none-eabi-gcc "../Src/led.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O3 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/led.d" -MT"Src/led.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/led.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O3 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O3 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O3 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc "../Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O3 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/system_stm32f4xx.d" -MT"Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/system_stm32f4xx.o"
+arm-none-eabi-gcc -o "EXTI_volatile.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/krushna/STM32_Projects/EXTI_volatile/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EXTI_volatile.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: EXTI_volatile.elf
+ 
+arm-none-eabi-size  EXTI_volatile.elf 
+arm-none-eabi-objdump -h -S EXTI_volatile.elf  > "EXTI_volatile.list"
+   text	   data	    bss	    dec	    hex	filename
+   1052	      4	   1572	   2628	    a44	EXTI_volatile.elf
+Finished building: default.size.stdout
+ 
+Finished building: EXTI_volatile.list
+ 
+13:45:30 **** Incremental Build of configuration Debug for project EXTI_volatile ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O3 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "EXTI_volatile.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/krushna/STM32_Projects/EXTI_volatile/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EXTI_volatile.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: EXTI_volatile.elf
+ 
+arm-none-eabi-size  EXTI_volatile.elf 
+arm-none-eabi-objdump -h -S EXTI_volatile.elf  > "EXTI_volatile.list"
+   text	   data	    bss	    dec	    hex	filename
+   1076	      4	   1572	   2652	    a5c	EXTI_volatile.elf
+Finished building: default.size.stdout
+ 
+Finished building: EXTI_volatile.list
+ 
+13:46:25 **** Incremental Build of configuration Debug for project EXTI_volatile ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O3 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "EXTI_volatile.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/krushna/STM32_Projects/EXTI_volatile/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EXTI_volatile.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: EXTI_volatile.elf
+ 
+arm-none-eabi-size  EXTI_volatile.elf 
+arm-none-eabi-objdump -h -S EXTI_volatile.elf  > "EXTI_volatile.list"
+   text	   data	    bss	    dec	    hex	filename
+   1104	      4	   1572	   2680	    a78	EXTI_volatile.elf
+Finished building: default.size.stdout
+ 
+Finished building: EXTI_volatile.list
+ 
